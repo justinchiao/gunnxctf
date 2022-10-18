@@ -134,6 +134,11 @@ h5{
 	font: 18px trebuchet ms;
 }
 
+
+.PDF{
+	margin:0px 70px;
+}
+
 .item{
 	float:left;
 	width:70%;
