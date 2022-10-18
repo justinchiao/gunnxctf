@@ -1,3 +1,4 @@
+/*start copy*/
 *{
 	margin:0;
 	padding:0;
@@ -21,7 +22,7 @@ body{
 	background-size: 100%;
 	background-attachment: fixed;
 	background-position:bottom;*/
-	background-color:#6b6b6b;
+	background-color:#70a4cf;
 }
 
 .container{
@@ -36,6 +37,7 @@ body{
 
 .header{
 	text-align:center;
+	float:center;
 	margin-top:0px;
 }
 
@@ -47,9 +49,9 @@ body{
 	font-family:track;
 	padding:20px;
 	padding-top:30px;
-	
-	
-	
+
+
+
 	background-image:url("images/background1.jpg");
 	background-size:100%;
 	background-position:bottom;
@@ -87,32 +89,34 @@ nav a{
 }
 
 nav a:hover{
-	color:#D11818;
+	color:#0054a3;
 }
 
 #currentPage{
-	color:#D11818;
+	color:#0054a3;
 }
 
 /*end copy*/
+
+
+.mainBody{
+	margin-top:50px;
+	padding:30px 60px;
+}
 
 .head{
 	float:left;
 }
 
-.mainBody{
-    text-align: center;
-	margin:auto;
-    padding-top:30px;
-    width:80%;
-}
-
 .text{
-	
+	float:right;
+	width: 70%;
+	box-sizing:border-box;
+	padding-left:50px;
 }
 
 h2{
-	font:bold 30px trebuchet ms;
+	font:bold 40px trebuchet ms;
 	color:#000;
 }
 
@@ -129,7 +133,7 @@ p{
 .footer{
 	background-color:#000;
 }
-	
+
 .container2{
 	width:80%;
 	margin:auto;
@@ -137,4 +141,25 @@ p{
 	padding:30px 70px;
 }
 
+.footerHeading{
+	float:left;
+	font:24px track;
+	color:#fff;
+	width:50%
+}
+
+.footerInfo{
+	float:left;
+	font:24px trebuchet ms;
+	color:#fff;
+	width:50%
+}
+
+.social{
+	float:right;
+}
+
+.social a{
+	padding-left:20px;
+}
 /*end copy*/
