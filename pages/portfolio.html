@@ -5,12 +5,13 @@
 		<title>Portfolio</title>
 		<link rel="stylesheet" type="text/css" href="../css/stylePortfolio.css">
 		<link rel="icon" type="image/png" href="../css/images/personalLogo.png" sizes="32x32">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
 	</head>
 
 	<body>
 		<div class="container">
 			<div class="header">
-				<a id="name" href="index.html">
+				<a id="name" href="../index.html">
 					Justin Chiao
 				</a>
 
@@ -21,65 +22,129 @@
 				<nav>
 					<ul>
 						<li>
-							<a href="index.html">Home</a>
+							<a href="../index.html">Home</a>
 						</li>
 
 						<li>
-							<a href="pages/cv.html">CV</a>
+							<a href="cv.html">CV</a>
 						</li>
 
 						<li>
-							<a href="pages/currentProjects.html">Current Projects</a>
+							<a href="currentProjects.html">Current Projects</a>
 						</li>
 
 						<li class="portfolio">
-							<a id="currentPage" href="pages/portfolio.html">Portfolio</a>
+							<a id="currentPage" href="portfolio.html">Portfolio</a>
 
 							<ul class="portList">
-								<li>
-									<a href="pages/leather.html">Leather</a>
-								</li>
 								
 								<li>
-									<a href="pages/photo.html">Photography</a>
+									<a href="photo.html">Photography</a>
 								</li>
 
 								<li>
-									<a href="pages/ceramic.html">Ceramic</a>
+									<a href="ceramic.html">Ceramic</a>
 								</li>
 
 								<li>
-									<a href="pages/design.html">Design</a>
+									<a href="design.html">Design</a>
+								</li>
+
+								<li>
+									<a href="leather.html">Leather</a>
 								</li>
 							</ul>
 
 						</li>
 
 						<li>
-							<a href="pages/contact.html">Contact</a>
+							<a href="contact.html">Contact</a>
 						</li>
 					</ul>
 				</nav>
 			</div><!--end header-->
 
 			<div class="mainBody">
-				<div class="box2"><!--steven lee-->
-					<h2>
-						Steven Lee's City Council Campaign
-					</h2>
-					<p>
-						For Steven's campaign, I designed flyers, social media posts, and virtual event graphics.
-					</p>
-				</div><!--end steven lee-->
+				
+				
+				<h1>
+					<a href="photo.html">Photography</a>
+				</h1>
+				<div class="swiper">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+					  <!-- Slides -->
+					  <div class="swiper-slide"><img src="../css/images/portfolio/photo/sf/DSC08197.jpg"></div>
+					  <div class="swiper-slide"><img src="../css/images/portfolio/photo/cyco/DSC08165.jpg"></div>
+					  <div class="swiper-slide"><img src="../css/images/portfolio/photo/sf/DSC07876.jpg"></div>
+					  <div class="swiper-slide"><img src="../css/images/portfolio/photo/July/7_5.jpg"></div>
 
-				<div class="box2"><!--steven lee-->
-					<h2>
-						Steven Lee's City Council Campaign
-					</h2>
-					<p>
-						For Steven's campaign, I designed flyers, social media posts, and virtual event graphics.
-					</p>
-				</div><!--end cat 1-->
+					</div>
+				  
+					<!-- If we need navigation buttons -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+
+				</div>
+
+				<h1>
+					<a href="ceramic.html">Ceramic</a>
+				</h1>
+				<div class="swiper">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+					  <!-- Slides -->
+					  <div class="swiper-slide"><img src="../css/images/portfolio/ceramic/sagar1.jpg"></div>
+					  <div class="swiper-slide"><img src="../css/images/portfolio/ceramic/tree1.jpg"></div>
+					  <div class="swiper-slide"><img src="../css/images/portfolio/ceramic/copperbowl1.jpg"></div>
+					  <div class="swiper-slide"><img src="../css/images/portfolio/ceramic/vase1.jpg"></div>
+
+					</div>
+
+					<!-- If we need navigation buttons -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+
+				</div>
+
+				<h1>
+					<a href="design.html">Design</a>
+				</h1>
+				<div class="swiper">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+					  <!-- Slides -->
+					  <div class="swiper-slide"><img src="../css/images/portfolio/ceramic/tree1.jpg"></div>
+					  <div class="swiper-slide"><img src="../css/images/portfolio/ceramic/tree2.jpg"></div>
+					  <div class="swiper-slide"><img src="../css/images/portfolio/ceramic/tree3.jpg"></div>
+
+					</div>
+
+					<!-- If we need navigation buttons -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+
+				</div>
+				
+				<h1>
+					<a href="leather.html">Leather</a>
+				</h1>
+
+				<div class="swiper">
+					<!--ceramics-->
+					<div class="swiper-wrapper">
+					  <!-- Slides -->
+					  <div class="swiper-slide"><img src="../css/images/portfolio/ceramic/tree1.jpg"></div>
+					  <div class="swiper-slide"><img src="../css/images/portfolio/ceramic/tree2.jpg"></div>
+					  <div class="swiper-slide"><img src="../css/images/portfolio/ceramic/tree3.jpg"></div>
+
+					</div>
+				  
+					<!-- If we need navigation buttons -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+
+				</div>
 
 			</div><!--end main body-->
 
@@ -111,6 +176,25 @@
 			</div><!--end container2-->
 		</div><!--end footer-->
 
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+		<script>
+			const swiper = new Swiper('.swiper', {
+  			// Optional parameters
+  			//direction: 'vertical',
+  			loop: true,
+
+  			// If we need pagination
+  			pagination: {
+    		el: '.swiper-pagination',
+  			},
+
+  			// Navigation arrows
+  			navigation: {
+    			nextEl: '.swiper-button-next',
+    			prevEl: '.swiper-button-prev',
+  			},
+			});
+		</script>
 	</body>
 
 </html>
