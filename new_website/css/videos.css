@@ -1,0 +1,36 @@
+h1{
+    font-family: Times;
+	font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+
+body{
+    background-image: url("images/paper_seamless_towel_texture.jpg");
+    background-repeat: repeat;
+}
+
+.container{
+    /* border: 1px solid #ff0000; */
+    width:90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#profile{
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+p{
+    /* border: 1px solid #ff0000; */
+    font-family: Times;
+    font-size: 28px;
+    text-align: justify;
+    padding: 0px;
+    margin-top:0px;
+}
