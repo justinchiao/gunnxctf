@@ -99,7 +99,7 @@ cont_btn.addEventListener("click", cont_page);
 
 const cred_btn = document.getElementById("cred");
 function cred_page(){
-    containers[0].style.gridTemplateColumns = "20% auto";
+    containers[0].style.gridTemplateColumns = "50% auto";
     home.style.fontSize = "50px"
     nav.style.paddingRight = "0px"
     title.style.paddingRight = "0px"
@@ -108,6 +108,6 @@ function cred_page(){
     {
         menu[b].style.border=null;
     }
-    cred_btn.style.border= "3px solid #ff0000"
+    cred_btn.style.border= "2px solid #ff0000"
 };
 cred_btn.addEventListener("click", cred_page);

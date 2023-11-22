@@ -7,15 +7,6 @@ html,body{
 	height:100%;
 }
 
-@font-face{
-	src: url(fonts/Track-Regular.ttf);
-	font-family:track;
-}
-
-@font-face{
-	src: url(fonts/VCR_OSD_MONO.ttf);
-	font-family:vcr;
-}
 
 .clr{
 	clear:both;
@@ -49,7 +40,7 @@ body{
 }
 
 .textbox{
-	/*border: 1px solid #ffffff;*/
+	/* border: 1px solid #ff0000; */
 	margin-right:20px;
 	margin-left:20px;
 	margin-top: 40px;
@@ -65,14 +56,14 @@ h1 button{
 	width:auto;
 	font-family: Times;
 	font-size: 76px;
-	padding: 0px;
+	padding: 0px 10px;
 	color: #000000;
 	background-color: rgb(244, 241, 237); 
 	border: solid transparent;
 }
 
 nav{
-	/*border: 1px solid #ffffff;*/
+	/* border: 1px solid #ff0000; */
 	width:auto;
 	list-style-type: none;
 	margin-top: 20px;
@@ -88,26 +79,16 @@ li button{
 	text-align: right;
 	padding: 0px 5px;
 	margin: 15px;
+	margin-right: 0px;
 	color:rgb(0, 0, 0);
 	background-color: rgb(244, 241, 237); 
 	border-style: solid
 }
 
 button:hover{
-	border: 1px solid #ff0000;
+	border: 2px solid #ff0000;
 }
 
-.about{
-	/*border: 1px solid #ffffff;*/
-	width:auto;
-	font-family: Times;
-	font-size: 20px;
-	list-style-type: none;
-	margin-top: 20px;
-	padding: 0px;
-	text-align: right;
-	padding-right: 50%;
-}
 
 iframe{
 	border:transparent;
@@ -125,5 +106,5 @@ iframe{
 }
 
 #cred{
-	font-size: 24px;
+	font-size: 20px;
 }

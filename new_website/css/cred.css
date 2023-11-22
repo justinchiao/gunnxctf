@@ -1,0 +1,26 @@
+body{
+    background-image: url("images/R.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.container{
+    margin:40px;
+}
+
+p{
+    font-family: Times;
+    font-size: 28px;
+}
+
+a{
+    font-family: Times;
+    font-size: 28px;
+    /* text-decoration: none; */
+    color: black;
+}
+
+img{
+    margin-top: 40px;
+    display: block;
+}

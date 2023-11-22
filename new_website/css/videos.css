@@ -6,24 +6,29 @@ h1{
 }
 
 body{
-    background-image: url("images/paper_seamless_towel_texture.jpg");
+    background-image: url("images/paper_seamless_towel_texture(light).jpg");
     background-repeat: repeat;
 }
 
-.container{
-    /* border: 1px solid #ff0000; */
-    width:90%;
+.video_box{
+    /* border: 2px solid red; */
+    width: 90%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 60px;
+    border-bottom: 3px solid red;
 }
 
-#profile{
-    width: 50%;
-    float: left;
-    margin-right: 30px;
-    margin-left: 0px;
-    margin-bottom: 5px;
-    margin-top: 0px;
+h2{
+    font-size: 50px;
+    font-family: Times;
+    font-weight: normal;
+}
+
+video{
+    /* border: 2px solid red; */
+    width: 85%;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 p{
