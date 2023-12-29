@@ -39,3 +39,27 @@ p{
     padding: 0px;
     margin-top:0px;
 }
+
+.read_button{
+    border: none;
+    background: rgb(194, 194, 194);
+    font-size: 20px;
+    font-family: Times;
+}
+
+.less{
+    display: block;
+    padding-bottom: 30px;
+}
+
+.more{
+    display: none;
+    padding-bottom: 30px;
+}
+
+.thumbnail{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
