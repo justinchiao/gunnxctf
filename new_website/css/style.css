@@ -27,6 +27,7 @@ body{
 	margin:auto;
 	padding-bottom:0px;
 	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/binder_paper.jpg");
+	/* background: black; */
 	background-size: cover;
 	/*border-right:5px solid #000;
 	border-left:5px solid #000;*/

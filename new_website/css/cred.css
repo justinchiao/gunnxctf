@@ -2,6 +2,7 @@ body{
     background-image: url("images/R.jpg");
     /* background-repeat: no-repeat; */
     background-size: cover;
+    /* background-image: linear-gradient(to bottom right, rgb(3, 3, 3), rgb(73, 73, 73)); */
 }
 
 .container{
@@ -11,13 +12,15 @@ body{
 p{
     font-family: Times;
     font-size: 28px;
+    color:rgb(244, 241, 237);
 }
 
 a{
     font-family: Times;
     font-size: 28px;
     /* text-decoration: none; */
-    color: black;
+    /* color: black; */
+    color:rgb(244, 241, 237);
 }
 
 img{

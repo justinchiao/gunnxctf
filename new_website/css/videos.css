@@ -7,6 +7,7 @@ h1{
 
 body{
     background-image: url("images/paper_seamless_towel_texture(light).jpg");
+    /* background-image: linear-gradient(to bottom right, rgb(3, 3, 3), rgb(73, 73, 73)); */
     background-repeat: repeat;
 }
 
@@ -22,6 +23,8 @@ h2{
     font-size: 50px;
     font-family: Times;
     font-weight: normal;
+    /* color:rgb(244, 241, 237); */
+    color:black;
 }
 
 video{
@@ -38,6 +41,8 @@ p{
     text-align: justify;
     padding: 0px;
     margin-top:0px;
+    /* color:rgb(244, 241, 237); */
+    color:black;
 }
 
 .read_button{

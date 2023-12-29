@@ -7,6 +7,7 @@ h1{
 
 body{
     background-image: url("images/BW-Canvas-Fabric-Texture.jpg");
+    /* background-image: linear-gradient(to bottom right, rgb(3, 3, 3), rgb(73, 73, 73)); */
     background-size: cover;
 }
 
@@ -33,4 +34,6 @@ p{
     text-align: justify;
     padding: 0px;
     margin-top:0px;
+    /* color:rgb(244, 241, 237); */
+    color:black;
 }

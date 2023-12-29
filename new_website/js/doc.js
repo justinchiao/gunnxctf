@@ -11,6 +11,7 @@ const srei_less = document.getElementById("srei_less")
 function srei_less_func(){
     document.getElementById('srei_more_text').style.display = 'none'
     document.getElementById('srei_less_text').style.display = 'block'
+    document.getElementById('srei_less_thumbnail').style.display = 'inline'
     
 };
 srei_less.addEventListener("click", srei_less_func);
