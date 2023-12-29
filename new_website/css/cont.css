@@ -1,5 +1,5 @@
 body{
-    background-image: url('../css/images/blank_paper.jpg');
+    background-image: url('../css/images/film_grain.jpg');
     /* background-image: linear-gradient(to bottom right, rgb(3, 3, 3), rgb(73, 73, 73)); */
     background-size: cover;
 }
@@ -12,7 +12,7 @@ body{
 .profile{
     height:400px;
     border-radius: 100%;
-    border: black solid 5px;
+    border:lightgrey solid 5px;
 }
 
 img{
@@ -43,7 +43,7 @@ img{
     font-size:26px;
     margin-top:10px;
     padding: 5px;
-    background-color: rgb(244, 241, 237);
+    background-color: lightgrey;
 }
 
 .text:hover{

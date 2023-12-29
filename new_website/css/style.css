@@ -26,7 +26,7 @@ body{
 	width:100%;
 	margin:auto;
 	padding-bottom:0px;
-	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/binder_paper.jpg");
+	background: url("images/film_grain_2.jpg"); /*linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
 	/* background: black; */
 	background-size: cover;
 	/*border-right:5px solid #000;
@@ -59,7 +59,7 @@ h1 button{
 	font-size: 76px;
 	padding: 0px 10px;
 	color: #000000;
-	background-color: rgb(244, 241, 237); 
+	background-color: lightgrey; 
 	border: solid transparent;
 }
 
@@ -82,7 +82,7 @@ li button{
 	margin: 15px;
 	margin-right: 0px;
 	color:rgb(0, 0, 0);
-	background-color: rgb(244, 241, 237); 
+	background-color: lightgrey; 
 	border-style: solid
 }
 
