@@ -9,7 +9,7 @@ body{
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/silhouette.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:100%;
+    background-size: cover;
 }
 
 .video_box{
@@ -26,16 +26,21 @@ h2{
     font-weight: normal;
     /* color:rgb(244, 241, 237); */
     color:black;
-    background-color: lightgrey;
-    display:inline;
-    padding:0px 30px;
+    /* background-color: lightgrey; */
+    display:block;
 }
 
 video{
     /* border: 2px solid red; */
     width: 85%;
     margin: auto;
-    margin: 20px 0px;
+    margin-bottom: 20px;
+}
+
+.thumbnail{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 p{
@@ -67,13 +72,13 @@ p{
     padding-bottom: 30px;
 }
 
-.thumbnail{
-    width: 85%;
-    margin: auto;
-    margin-bottom: 20px;
-}
 
 mark{
     background-color:lightgrey;
     padding: 0.05em 0px;
+}
+
+.title{
+    background-color:lightgrey;
+    padding: 0.05em 1rem;
 }
