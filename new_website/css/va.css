@@ -40,7 +40,7 @@ video{
 .video{
     /* border: 2px solid red; */
     width: 85%;
-    height:auto;
+    aspect-ratio: 16/9;
     margin: auto;
     margin-bottom: 20px;
 }
