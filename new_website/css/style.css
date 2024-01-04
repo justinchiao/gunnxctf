@@ -148,7 +148,7 @@ iframe{
 		display:flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
-		border:1px solid #ff0000;
+		/* border:1px solid #ff0000; */
 
 	}
 	#cred{
