@@ -1,0 +1,84 @@
+h1{
+    font-family: Times;
+	font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/Screenshot\ 2024-01-03\ 174511.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.video_box{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    border-bottom: 3px solid red;
+}
+
+h2{
+    font-size: 50px;
+    font-family: Times;
+    font-weight: normal;
+    /* color:rgb(244, 241, 237); */
+    color:black;
+    /* background-color: lightgrey; */
+    display:block;
+}
+
+video{
+    /* border: 2px solid red; */
+    width: 85%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.thumbnail{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+p{
+    /* border: 1px solid #ff0000; */
+    font-family: Times;
+    font-size: 28px;
+    text-align: justify;
+    padding: 0px;
+    margin-top:0px;
+    /* color:rgb(244, 241, 237); */
+    color:black;
+    /* background-color: lightgrey; */
+}
+
+.read_button{
+    border: none;
+    background: lightgrey;
+    font-size: 20px;
+    font-family: Times;
+}
+
+.less{
+    display: block;
+    padding-bottom: 30px;
+}
+
+.more{
+    display: none;
+    padding-bottom: 30px;
+}
+
+
+mark{
+    background-color:lightgrey;
+    padding: 0.05em 0px;
+}
+
+.title{
+    background-color:lightgrey;
+    padding: 0.05em 1rem;
+}
