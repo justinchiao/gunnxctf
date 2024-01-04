@@ -1,19 +1,14 @@
 const containers = document.getElementsByClassName('gridContainer')
 const home = document.getElementById("home")
 const nav = document.getElementById("nav")
-console.log(nav)
 const title = document.getElementById("title")
-console.log(title)
 const iframe = document.getElementById('contentFrame')
 var menu = document.getElementsByClassName('nav_item')
-console.log(menu)
 
 const home_btn = document.getElementById("home");
 function home_page(){
-    containers[0].style.gridTemplateColumns = "100% auto";
+    containers[0].style.gridTemplateColumns = "50% auto";
     home.style.fontSize = "76px"
-    nav.style.paddingRight = "50%"
-    title.style.paddingRight = "50%"
     iframe.src="pages/blank.html"
     for( var b=0; b<menu.length; b++ )
     {
@@ -26,8 +21,6 @@ const about_btn = document.getElementById("about");
 function about_page(){
     containers[0].style.gridTemplateColumns = "20% auto";
     home.style.fontSize = "50px"
-    nav.style.paddingRight = "0px"
-    title.style.paddingRight = "0px"
     iframe.src="pages/about.html"
     for( var b=0; b<menu.length; b++ )
     {
@@ -41,8 +34,6 @@ const va_btn = document.getElementById("va");
 function va_page(){
     containers[0].style.gridTemplateColumns = "20% auto";
     home.style.fontSize = "50px"
-    nav.style.paddingRight = "0px"
-    title.style.paddingRight = "0px"
     iframe.src="pages/va.html"
     for( var b=0; b<menu.length; b++ )
     {
@@ -56,8 +47,7 @@ const doc_btn = document.getElementById("doc");
 function doc_page(){
     containers[0].style.gridTemplateColumns = "20% auto";
     home.style.fontSize = "50px"
-    nav.style.paddingRight = "0px"
-    title.style.paddingRight = "0px"
+
     iframe.src="pages/doc.html"
     for( var b=0; b<menu.length; b++ )
     {
@@ -71,8 +61,6 @@ const narr_btn = document.getElementById("narr");
 function narr_page(){
     containers[0].style.gridTemplateColumns = "20% auto";
     home.style.fontSize = "50px"
-    nav.style.paddingRight = "0px"
-    title.style.paddingRight = "0px"
     iframe.src="pages/narr.html"
     for( var b=0; b<menu.length; b++ )
     {
@@ -86,8 +74,6 @@ const cont_btn = document.getElementById("cont");
 function cont_page(){
     containers[0].style.gridTemplateColumns = "20% auto";
     home.style.fontSize = "50px"
-    nav.style.paddingRight = "0px"
-    title.style.paddingRight = "0px"
     iframe.src="pages/contact.html"
     for( var b=0; b<menu.length; b++ )
     {
@@ -100,9 +86,7 @@ cont_btn.addEventListener("click", cont_page);
 const cred_btn = document.getElementById("cred");
 function cred_page(){
     containers[0].style.gridTemplateColumns = "50% auto";
-    home.style.fontSize = "50px"
-    nav.style.paddingRight = "0px"
-    title.style.paddingRight = "0px"
+    home.style.fontSize = "70px"
     iframe.src="pages/cred.html"
     for( var b=0; b<menu.length; b++ )
     {

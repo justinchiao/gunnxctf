@@ -25,7 +25,7 @@ img{
 .gridContainer{
     /* border: green 1px solid; */
     display:grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
     margin:50px auto;
     justify-items: center;
@@ -52,8 +52,9 @@ img{
     border: red 2px solid;
 }
 
-@media (min-width:45em){
+@media (max-width:55em){
     .gridContainer{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
 }
