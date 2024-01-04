@@ -86,7 +86,7 @@ cont_btn.addEventListener("click", cont_page);
 const cred_btn = document.getElementById("cred");
 function cred_page(){
     containers[0].style.gridTemplateColumns = "50% auto";
-    home.style.fontSize = "70px"
+    home.style.fontSize = "50px"
     iframe.src="pages/cred.html"
     for( var b=0; b<menu.length; b++ )
     {
