@@ -1,0 +1,34 @@
+html{
+    height:100%;
+    background: lightgray;
+}
+
+body{
+	width:50%;
+    margin:auto;
+    border: 3px solid black;
+    padding: 20px 50px 50px 50px;
+    background: white;
+}
+
+h1{
+    font-family: "Arial";
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+h2{
+    font-family: "Arial"; 
+}
+
+h3{
+    font-family: "Arial"; 
+}
+
+p{
+
+    font-family: "Arial"; 
+}
