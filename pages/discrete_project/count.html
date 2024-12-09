@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Why is it so Difficult to Tackle?</title>
+		<meta charset="UTF-14">
+	</head>
+
+    <body>
+        <h1><a href="index.html">Climate Change</a></h1>
+        <h2>Why is it so Difficult to Tackle?</h2>
+
+        <p>
+            Climate Change is so difficult to tackle for many reasons, but one reason is that there are so many competing view points on how to address it. These competing approches are often mutually exclusive, limited by the financial resources a state, corporation, or individual has. 
+        </p>
+
+        <h3>Read More About the Different Ways to Combat Climate Change</h3>
+        <ul>
+            <li><a href="energy.html">Clean Energy</a></li>
+            <li><a href="food.html">Food Systems</a></li>
+            <li><a href="trans.html">Transportation Systems</a></li>
+            <li><a href="cons.html">Consumerism</a></li>
+        </ul>
+
+        <p>Within these four approaches there are competing views as well. As we can see with clean energy, there are multiple ways the goal of cleaner energy can be reached. This means there are countless ways these solutions can be selected.</p>
+        <p>For example, California wants to invest in cleaner energy and improve transportation systems. However, they only have enough money to fund four energy projects and three transportation projects. If there are 14 energy proposals and 12 transportation proposals, California has 220,220 different combinations of proposals to fund.</p>
+        <p>We can find the number of combinations using the binomial coeeficient. n is the number of proposals and k is the number that we can fund. 
+        </p>
+        <math display="block" class="tml-display" style="display:block math;">
+            <mrow>
+              <mrow>
+                <mo fence="true">(</mo>
+                <mfrac linethickness="0px">
+                  <mi>n</mi>
+                  <mi>k</mi>
+                </mfrac>
+                <mo fence="true">)</mo>
+              </mrow>
+              <mo>=</mo>
+              <mfrac>
+                <mrow>
+                  <mi>n</mi>
+                  <mo form="postfix" stretchy="false" lspace="0em" rspace="0em">!</mo>
+                </mrow>
+                <mrow>
+                  <mi>k</mi>
+                  <mo form="postfix" stretchy="false">!</mo>
+                  <mo form="prefix" stretchy="false">(</mo>
+                  <mi>n</mi>
+                  <mo>−</mo>
+                  <mi>k</mi>
+                  <mo form="postfix" stretchy="false">)</mo>
+                  <mo form="postfix" stretchy="false" lspace="0em" rspace="0em">!</mo>
+                </mrow>
+              </mfrac>
+            </mrow>
+          </math>
+        <p>n! represents the number of ways to fund all proposals but the order in which we fund them is relevant. There are n options for the first proposal to fund, then there are n-1 options for the next proposal to fund and so forth. The number of options multiplied together represent the total ways to arrange because for each proposla we fund the number possible arrangements increases one for each option we have. We divide n! by (n-k)! hecasue we want to remove all the arrangements that select more than k proposals. This removes all but the first k terms from n!. It doesn't matter in what order we select the proposals to fund so next we divide by k! to remove the counts where the projects funded are the same, but selected in a different order. k! is how many ways we can arrange the k proposlas we selected.</p>
+        <p>Applying this to our hypothetical, we have 14 energy proposals and must choose 4.</p>
+        <math display="block" class="tml-display" style="display:block math;">
+            <mrow>
+              <mrow>
+                <mo fence="true">(</mo>
+                <mfrac linethickness="0px">
+                  <mn>14</mn>
+                  <mn>4</mn>
+                </mfrac>
+                <mo fence="true">)</mo>
+              </mrow>
+              <mo>=</mo>
+              <mfrac>
+                <mrow>
+                  <mn>14</mn>
+                  <mo form="postfix" stretchy="false" lspace="0em" rspace="0em">!</mo>
+                </mrow>
+                <mrow>
+                  <mn>4</mn>
+                  <mo form="postfix" stretchy="false">!</mo>
+                  <mo form="prefix" stretchy="false">(</mo>
+                  <mn>14</mn>
+                  <mo>−</mo>
+                  <mn>4</mn>
+                  <mo form="postfix" stretchy="false">)</mo>
+                  <mo form="postfix" stretchy="false" lspace="0em" rspace="0em">!</mo>
+                </mrow>
+              </mfrac>
+              <mo>=</mo>
+              <mn>1001</mn>
+            </mrow>
+          </math>
+        <p>Repeat this with our 12 transportation proposals.</p>
+        <math display="block" class="tml-display" style="display:block math;">
+            <mrow>
+              <mrow>
+                <mo fence="true">(</mo>
+                <mfrac linethickness="0px">
+                  <mn>12</mn>
+                  <mn>3</mn>
+                </mfrac>
+                <mo fence="true">)</mo>
+              </mrow>
+              <mo>=</mo>
+              <mfrac>
+                <mrow>
+                  <mn>12</mn>
+                  <mo form="postfix" stretchy="false" lspace="0em" rspace="0em">!</mo>
+                </mrow>
+                <mrow>
+                  <mn>3</mn>
+                  <mo form="postfix" stretchy="false">!</mo>
+                  <mo form="prefix" stretchy="false">(</mo>
+                  <mn>12</mn>
+                  <mo>−</mo>
+                  <mn>3</mn>
+                  <mo form="postfix" stretchy="false">)</mo>
+                  <mo form="postfix" stretchy="false" lspace="0em" rspace="0em">!</mo>
+                </mrow>
+              </mfrac>
+              <mo>=</mo>
+              <mn>220</mn>
+            </mrow>
+          </math>
+        <p>Each possible combination of energy porjects can be combined with each possible combination of transportation projects so we multiply them.</p>
+        <math display="block" class="tml-display" style="display:block math;">
+            <mrow>
+              <mn>1001</mn>
+              <mo>*</mo>
+              <mn>220</mn>
+              <mo>=</mo>
+              <mn>220,220</mn>
+            </mrow>
+          </math>
+    </body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Number theory and Energy Efficiency</title>
+		<meta charset="UTF-14">
+	</head>
+
+    <body>
+        <h1><a href="index.html">Climate Change</a></h1>
+        <h2>Modular Arithmetic Secure Hash</h2>
+        <p>A hash function is an algorithm that takes input strings of arbitrary length and maps them to short fixed length strings.</p>
+
+        <h3>MASH-1 Function</h3>
+        <math display="block" class="tml-display" style="display:block math;">
+            <mrow>
+              <msub>
+                <mi>H</mi>
+                <mi>i</mi>
+              </msub>
+              <mo>=</mo>
+              <mo form="prefix" stretchy="false">(</mo>
+              <mo form="prefix" stretchy="false">(</mo>
+              <mo form="prefix" stretchy="false">(</mo>
+              <msub>
+                <mover>
+                  <mi>X</mi>
+                  <mo stretchy="false" style="math-style:normal;math-depth:0;">~</mo>
+                </mover>
+                <mi>i</mi>
+              </msub>
+              <mo>⊕︎</mo>
+              <msub>
+                <mi>H</mi>
+                <mrow>
+                  <mi>i</mi>
+                  <mo>−</mo>
+                  <mn>1</mn>
+                </mrow>
+              </msub>
+              <mo form="postfix" stretchy="false">)</mo>
+              <mo>∨</mo>
+              <mi>A</mi>
+              <msup>
+                <mo form="postfix" stretchy="false">)</mo>
+                <mn>2</mn>
+              </msup>
+              <mo form="prefix" stretchy="false">(</mo>
+              <mtext>mod </mtext>
+              <mi>N</mi>
+              <mo form="postfix" stretchy="false">)</mo>
+              <mo form="postfix" stretchy="false">)</mo>
+              <mo>∼</mo>
+              <mi>n</mi>
+              <mo>⊕︎</mo>
+              <msub>
+                <mi>H</mi>
+                <mrow>
+                  <mi>i</mi>
+                  <mo>−</mo>
+                  <mn>1</mn>
+                </mrow>
+              </msub>
+            </mrow>
+        </math>
+
+        <p><i>N</i> is an RSA modulus,  the product of two large primes</p>
+        <p><i>m</i> is the length of <i>N</i> in bits</p>
+        <p><i>n</i> is the largest multiple of 16 smaller than <i>m</i></p>
+        <p>Input string must be less than 2<sup>n/2</sup> bits long. If necessary, the string is 0 padded to be a multiple of <i>n</i>/2. The bits are then divided into <i>t</i> blocks represented as <i>X<sub>1</sub>...X<sub>t</sub></i></p>
+        <p>the (mod <i>N</i>) part of the function is notation for modular arithmetic.</p>
+
+        <math display="block" class="tml-display" style="display:block math;">
+          <mrow>
+            <mi>A</mi>
+            <mo>≡</mo>
+            <mi>B</mi>
+            <mo form="prefix" stretchy="false">(</mo>
+            <mi>m</mi>
+            <mi>o</mi>
+            <mi>d</mi>
+            <mi>N</mi>
+            <mo form="postfix" stretchy="false">)</mo>
+          </mrow>
+        </math>
+
+        <math display="block" class="tml-display" style="display:block math;">
+          <mrow>
+            <mi>N</mi>
+            <mtext>
+            </mtext>
+            <mi>|</mi>
+            <mtext>
+            </mtext>
+            <mi>A</mi>
+            <mo>−</mo>
+            <mi>B</mi>
+          </mrow>
+        </math>     
+
+        <p>The result is a string 33% smaller than the original input.</p>
+        <p>MASH-1 is secure becasue when the factors of <i>N</i> are unknown, preimage and collision attacks require 2<sup>n/2</sup> and 2<sup>n/4</sup> operations. This is no better than brute force attacks.</p>
+        <p>This security comes from the fact that <i>N</i> only has four factors: itself, the two prime factors, and 1. A prime number is defined as an integer with only factors itself and 1. Our modulus is the product of two primes so we know off the bat that those primes are factors in addition to itself and 1. We can also know that there are no other factors because none of the known factors have any additional factors. For example 12=3*4 which we can rewrite to 12=3*2*2=6*2 revealing factors 6 and 2 from 3 and 4. For products of large primes, finding the only two factors is computationally very expensive and take a lopt of time.</p>
+        <p>Hash algorithms affect climate change becasue they can improve storage efficiency which is one of the biggest costs of the digital age. Storing 100gb of data in the cloud results in about 0.2 tons of CO2. Reducing the size of data we need to store can have a big impact on the carbon footprint of many cloud services.</p>
+
+    </body>
+</html>
